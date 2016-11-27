@@ -1,0 +1,42 @@
+main.cpp 
+int main(int argc, char** argv) {
+    // Read for commandline input
+
+
+    // if to compress
+    compressor = Compressor()
+    compressor.createTreeFromFile(fileptr)
+    
+    // If to decompress
+    Decompressor(fileptr)
+    decompressor.createTreeFromScheme(fileptr)
+}
+
+
+
+HuffmanTree.h/.cpp
+~constructor();
+createTreeFromFile(fileptr) {
+    createFrequencyArray();
+    createTreeFromFrequencyArray();
+    return the Tree;
+}
+encodeWithTree(filein, fileout)
+private:
+    Node* root;
+    Node* pQueue;
+
+Decompressor.h/.cpp
+    constructor(fileptr)
+    ~destructor
+private:
+    HuffmanTree()
+
+
+Compressor.h/.cpp
+    constructor
+    ~destructor
+    createTreeFromScheme(fileptr)
+
+private:
+    HuffmanTree;
